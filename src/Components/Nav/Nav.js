@@ -6,12 +6,6 @@ class Nav extends Component{
     constructor(){
         super();
     }
-
-    componentDidMount(){
-        if(this.props.location.pathname){
-            this.props.history.push('./Dashboard')
-        }
-    }
     
     render(){
         console.log(this.props)
