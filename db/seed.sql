@@ -2,7 +2,7 @@ create table if not exists
 users(
     user_id serial primary key,
     username varchar(20),
-    password varchar(20),
+    password varchar(250),
     profile_pic text
 );
 
